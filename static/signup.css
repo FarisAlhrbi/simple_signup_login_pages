@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.signup , .login{
+    background-color: #eee;
+    width: 30%;
+    height: 300px;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+.signup form , .login form{
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+    justify-content: space-between;
+
+} 
+
+p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+label{
+    padding: 10px 0 0 10px;
+}
+
+input{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+#sub{
+    width: 100px;
+    align-self:center;
+    cursor: pointer;
+}
